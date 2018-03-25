@@ -1,0 +1,21 @@
+@mixin main-theme-font-regular{
+  font-family: OpenSansRegular, sans-serif;
+  font-weight: normal;
+}
+/*colors*/
+$light-text: #fff;
+$btn-main: #4e65ee;
+$btn-main-hover: #4960cb;
+$main-color: #623c77;
+/*size text*/
+$header-footer-text: 14px;
+$title: 34px;
+$subtitle: 30px;
+$text: 16px;
+/*indents*/
+$padding-screen: 40px;
+$padding-first-screen: 160px 0;
+/*fonts*/
+$regular: OpenSansRegular;
+$light: OpenSansLight;
+$bold: OpenSansBold;

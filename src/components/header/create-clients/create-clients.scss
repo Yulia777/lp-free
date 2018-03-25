@@ -1,0 +1,45 @@
+.create-clients {
+  padding: $padding-first-screen;
+  color: $light-text;
+  &__title {
+    font-size: $title;
+    max-width: 700px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 10px 20px;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-top: 1px solid $light-text;
+      border-left: 1px solid $light-text;
+      margin-left: -10px;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-bottom: 1px solid $light-text;
+      border-right: 1px solid $light-text;
+      margin-top: 23px;
+      margin-left: -40px;
+    }
+  }
+  &__subtitle {
+    font-family: $regular;
+    font-size: $subtitle;
+    max-width: 550px;
+    margin: 0 0 0 20px;
+    line-height: 2em;
+  }
+  &__desc {
+    font-size: $text;
+    margin: 40px 0 0 20px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+}

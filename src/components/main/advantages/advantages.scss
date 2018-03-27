@@ -32,6 +32,10 @@
             font-family: $bold;
             height: 45px;
             overflow-y: hidden;
+            &:hover {
+              transition: 0.7s;
+              height: 60px;
+            }
           }
           .desc {
             line-height: 1.5em;

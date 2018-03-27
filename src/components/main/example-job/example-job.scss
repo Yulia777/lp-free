@@ -1,0 +1,47 @@
+.example-job {
+  padding: $padding-screen;
+  &__title {
+    font-size: $subtitle;
+    text-align: center;
+    font-family: $light;
+    span {
+      font-family: $bold;
+    }
+  }
+  .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &__item {
+      padding: 30px 30px 0 30px;
+      display: flex;
+      flex-direction: column;
+      margin-top: -50px;
+      width: 320px;
+      img {
+        cursor: pointer;
+      }
+    }
+    &__show {
+      position: relative;
+      left: 36%;
+      top: 43%;
+      width: 100px;
+      &:hover {
+        width: 120px;
+        left: 34%;
+        transition: 0.5s;
+      }
+    }
+    &__page {
+      &:hover {
+        box-shadow: 0 0 25px rgba(73, 96, 203, 0.5);
+        transition: 0.5s;
+      }
+    }
+    &__desc {
+      text-align: center;
+      line-height: 1.5em;
+    }
+  }
+}

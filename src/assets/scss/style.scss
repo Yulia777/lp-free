@@ -6,7 +6,12 @@
 @import "../../components/header/header";
 @import "../../components/footer/footer";
 @import "../../components/header/create-clients/create-clients";
-@import "../../components/main/what-can/what-can.scss";
+@import "../../components/main/what-can/what-can";
+@import "../../components/main/advantages/advantages";
+@import "../../components/main/example-job/example-job";
+@import "../../components/main/cost-bizness/cost-bizness";
+@import "../../components/elements/forms/form-cost/form-cost";
+@import "../../components/main/our-strategy/our-strategy";
 
 body{
   @include main-theme-font-regular;

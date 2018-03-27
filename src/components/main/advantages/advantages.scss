@@ -1,0 +1,44 @@
+.advantages {
+  padding: $padding-screen;
+  background: url("../../assets/images/fon-fourth-screen-min.png")no-repeat;
+  background-position: center;
+  color: $light-text;
+  &__title {
+    font-size: $title;
+    text-align: center;
+    font-family: $light;
+    margin: 0;
+    span {
+      font-family: $bold;
+    }
+  }
+  &__items {
+    width: 950px;
+    margin: auto;
+    .advantages {
+      &__item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .advantage {
+          width: 45%;
+          padding: 0 0 40px;
+          &:first-child {
+            text-align: right;
+          }
+          .num {
+            font-size: $big-number;
+            color: $btn-main;
+            font-family: $bold;
+            height: 45px;
+            overflow-y: hidden;
+          }
+          .desc {
+            line-height: 1.5em;
+            padding: 5px 0 0;
+          }
+        }
+      }
+    }
+  }
+}

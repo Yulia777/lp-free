@@ -1,5 +1,5 @@
 .header {
-  background: url("../../assets/images/fon-first-screen-min.png")no-repeat;
+  background: url("../../assets/images/fon-fourth-screen-min.png")no-repeat;
   padding: 10px 0;
   background-position-y: 3%;
   background-size: cover;
@@ -29,5 +29,13 @@
     padding: 7px 20px;
     color: $light-text;
     font-size: $header-footer-text;
+    cursor: pointer;
+    &:hover {
+      background: $btn-main;
+      border: 1px solid $btn-main;
+      border-radius: 50px;
+      color: #fff;
+      transition: 0.8s;
+    }
   }
 }

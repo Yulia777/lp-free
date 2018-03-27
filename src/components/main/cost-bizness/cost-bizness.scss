@@ -1,0 +1,29 @@
+.cost-bizness {
+  padding: $padding-screen;
+  background: url("../../assets/images/fon-sixth-screen-min.png")no-repeat;
+  background-position: center;
+  &__title {
+    font-size: $title;
+    text-align: center;
+    font-family: $light;
+    margin: 0;
+    span {
+      font-family: $bold;
+      color: #525252;
+    }
+  }
+  &__desc {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.5;
+    &--after {
+      text-align: center;
+      margin: 0;
+    }
+    span {
+      color: #525252;
+      font-family: $bold;
+    }
+  }
+}

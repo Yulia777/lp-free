@@ -1,0 +1,97 @@
+.our-strategy {
+  padding: $padding-screen;
+  background: url("../../assets/images/fon-third-screen-min.png")no-repeat;
+  &__title {
+    font-size: $subtitle;
+    text-align: center;
+    font-family: $light;
+    max-width: 500px;
+    margin: auto;
+    span {
+      font-family: $bold;
+    }
+  }
+  .strategy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    &__item {
+      height: 180px;
+    }
+    .content {
+      display: flex;
+      flex-direction: row;
+      height: 100px;
+      &__img {
+        border-radius: 50%;
+        border: 2px solid $main-color;
+        width: 70px;
+        height: 65px;
+        margin: auto;
+        text-align: center;
+        padding: 5px;
+        box-sizing: border-box;
+        img {
+          padding: 5px;
+          width: 50px;
+          height: 50px;
+          box-sizing: border-box;
+        }
+      }
+      &__desc {
+        width: 65%;
+        line-height: 1.5em;
+        padding: 0 10px;
+      }
+    }
+    &__wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+      margin: auto;
+      padding-top: 80px;
+    }
+    &__first {
+      .strategy {
+        &__item {
+          border-right: 2px solid $main-color;
+          .content {
+            padding-top: 40px;
+            &__desc {
+              text-align: right;
+            }
+            &:after {
+              content: '';
+              border-top: 2px solid $main-color;
+              display: inline;
+              width: 80px;
+              position: relative;
+              top: 50px;
+            }
+          }
+        }
+      }
+    }
+    &__second {
+      margin-top: -50px;
+      .strategy {
+        &__item {
+          .content {
+            &:before {
+              content: '';
+              border-top: 2px solid $main-color;
+              display: inline;
+              width: 80px;
+              position: relative;
+              top: 50px;
+            }
+          }
+          &:last-child {
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,12 +1,13 @@
 .what-can {
   padding: $padding-screen;
   background: url("../../assets/images/fon-second-screen-min.png")no-repeat;
-  background-size: 99%;
+  /*background-size: 99%;*/
   background-position: center;
   &__title {
     font-size: $title;
     text-align: center;
     font-family: $light;
+    margin: 0;
     span {
       font-family: $bold;
     }
@@ -43,21 +44,24 @@
           }
         }
         .num {
-            text-align: center;
-            margin: auto;
-            font-weight: bold;
+          text-align: center;
+          margin: auto;
+          font-weight: bold;
         }
       }
       &__wrap {
-        padding: 60px 20px;
+        padding: 80px 20px;
         border: 2px solid $main-color;
         border-radius: 50%;
-        width: 200px;
-        height: 100px;
+        width: 250px;
+        height: 250px;
         margin: auto;
+        box-sizing: border-box;
         &--second {
-          padding: 80px 40px;
+          padding: 70px 40px;
           margin-top: -20px;
+          width: 270px;
+          height: 270px;
         }
       }
       &__desc {

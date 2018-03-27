@@ -34,5 +34,13 @@
     padding: 7px 20px;
     color: $light-text;
     font-size: $header-footer-text;
+    cursor: pointer;
+    &:hover {
+      background: $btn-main;
+      border: 1px solid $btn-main;
+      border-radius: 50px;
+      color: #fff;
+      transition: 0.8s;
+    }
   }
 }

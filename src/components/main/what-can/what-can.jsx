@@ -5,7 +5,7 @@ class WhatCan extends Component{
         return(
             <section className="what-can">
                 <div className="container what-can__wrap">
-                    <h1 className="what-can__title">Что может <span>продающий</span> лендинг:</h1>
+                    <h2 className="what-can__title">Что может <span>продающий</span> лендинг:</h2>
                     <div className="circles">
                         <div className="circle">
                             <div className="circle__num">

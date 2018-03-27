@@ -1,0 +1,174 @@
+/* iPad (портретный и альбомный режимы) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .header {
+    &__contacts {
+      .call-btn {
+        padding: 15px 70px;
+      }
+    }
+    &__tel {
+      margin: 20px 0;
+    }
+    &__logo {
+      &--img {
+        height: 70px;
+      }
+    }
+  }
+  .what-can {
+    background-position: 20% 0;
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $subtitle-mb;
+      padding: 0;
+    }
+    .circles {
+      flex-direction: row;
+      justify-content: space-around;
+      span {
+        display: none;
+      }
+      .circle {
+        &__wrap {
+          padding: 45px 20px;
+          width: 200px;
+          height: 200px;
+          &--second {
+            width: 220px;
+            height: 220px;
+          }
+        }
+      }
+    }
+  }
+  .create-clients {
+    padding: $padding-first-screen-mb;
+    &__title {
+      font-size: $title-mb;
+    }
+    &__subtitle {
+      font-size: $subtitle-mb;
+    }
+    &__wrap {
+      padding: 20px 0;
+      background-size: 90%;
+    }
+  }
+  .our-strategy {
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $title-mb;
+      padding: 0;
+    }
+    .strategy {
+      &__wrap {
+        padding: 60px 0;
+      }
+    }
+  }
+  .advantages {
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $title-mb;
+      padding: 0;
+    }
+    &__items {
+      width: 100%;
+      .advantages {
+        &__item {
+          flex-direction: row;
+          justify-content: space-around;
+          .advantage {
+            width: 40%;
+            text-align: center;
+            margin: 10px 0;
+            &:first-child {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .example-job {
+    padding: 20px 0;
+    &__title {
+      font-size: $title-mb;
+    }
+    .images {
+      &__item {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      &__desc {
+        margin: 20px;
+      }
+      &__show {
+        top: 200px;
+        left: 35%;
+      }
+      &__page {
+        width: 300px;
+        margin: auto;
+      }
+    }
+  }
+  .cost-bizness {
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $title-mb;
+    }
+    .form-cost {
+      &__wrap {
+        margin: auto;
+        width: 80%;
+      }
+      &__field {
+        margin-right: 0;
+        width: 80%;
+        margin-bottom: 10px;
+      }
+      .btn {
+        margin: 10px auto 0;
+        width: 90%;
+      }
+    }
+  }
+  .footer {
+    .call-btn {
+      padding: 15px 70px;
+    }
+  }
+}
+
+/* iPad (альбомный режим) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  /* Сюда добавляем стили*/
+}
+
+/* iPad (портретный режим) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  /* Сюда добавляем стили*/
+}
+
+/* Большие экраны ----------- */
+@media only screen
+and (min-width : 1824px) {
+  /* Сюда добавляем стили*/
+}
+
+
+/* Настольные компьютеры и ноутбуки ----------- */
+@media only screen
+and (min-width : 1224px) {
+  /* Сюда добавляем стили*/
+}

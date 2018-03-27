@@ -1,0 +1,468 @@
+/* Смартфоны (портретный и альбомный режимы) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .btn {
+    margin: 30px auto 0;
+    text-align: center;
+    display: block;
+  }
+  .header {
+    &__wrap {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__contacts {
+      flex-direction: column;
+      .call-btn {
+        margin-left: 0;
+        padding: 15px 70px;
+      }
+    }
+    &__tel {
+      margin: 20px 0;
+    }
+    &__logo {
+      &--img {
+        height: 70px;
+      }
+    }
+  }
+  .what-can {
+    background-position: 20% 0;
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $subtitle-mb;
+      padding: 0;
+    }
+    .circles {
+      flex-direction: column;
+      span {
+        display: none;
+      }
+      .circle {
+        &__wrap {
+          padding: 45px 20px;
+          width: 200px;
+          height: 200px;
+          &--second {
+            width: 220px;
+            height: 220px;
+          }
+        }
+      }
+    }
+  }
+  .create-clients {
+    padding: $padding-first-screen-mb;
+    &__title {
+      font-size: $title-mb;
+      max-width: 100%;
+      margin: 0;
+      text-align: center;
+      &:after {
+        margin-top: 10px;
+      }
+    }
+    &__subtitle {
+      font-size: $subtitle-mb;
+      margin: 20px 0 0 20px;
+      max-width: 100%;
+    }
+    &__wrap {
+      padding: 20px 0;
+      background-size: 90%;
+    }
+    &__desc {
+      margin: 20px auto;
+      line-height: 1.5em;
+      padding: 20px;
+    }
+  }
+  .our-strategy {
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $title-mb;
+      padding: 0;
+    }
+    .strategy {
+      &__wrap {
+        flex-direction: column;
+        width: 100%;
+      }
+      &__item {
+        height: 120px;
+      }
+      &__first {
+        .strategy {
+          &__item {
+            border-right: 0;
+            .content {
+              padding-top: 0;
+              &:after {
+                border-top: 0;
+                width: 0;
+              }
+              &__desc {
+                text-align: center;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+      &__second {
+        margin-top: 0;
+        .strategy {
+          &__item {
+            border-left: 0;
+            .content {
+              padding-top: 0;
+              &:before {
+                border-top: 0;
+                width: 0;
+              }
+              &__desc {
+                text-align: center;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .advantages {
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $title-mb;
+      padding: 0;
+    }
+    &__items {
+      width: 100%;
+      .advantages {
+        &__item {
+          flex-direction: column;
+          .advantage {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0;
+            &:first-child {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .example-job {
+    padding: 20px 0;
+    &__title {
+      font-size: $title-mb;
+    }
+    .images {
+      flex-direction: column;
+      &__item {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      &__show {
+        top: 200px;
+      }
+      &__page {
+        width: 300px;
+        margin: auto;
+      }
+    }
+  }
+  .cost-bizness {
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $title-mb;
+    }
+    .form-cost {
+      &__field {
+        margin-right: 0;
+        width: 80%;
+        margin-bottom: 10px;
+      }
+      .btn {
+        margin: 10px auto 0;
+        width: 90%;
+      }
+    }
+  }
+  .footer {
+    &__wrap {
+      flex-direction: column;
+    }
+    &__copyright {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    &__contacts {
+      flex-direction: column;
+    }
+    .call-btn {
+      margin-left: 0;
+      margin-top: 10px;
+      padding: 15px 70px;
+    }
+  }
+}
+
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 767px) {
+  .btn {
+    margin: 30px auto 0;
+    text-align: center;
+    display: block;
+  }
+  .header {
+    &__wrap {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__contacts {
+      flex-direction: column;
+      .call-btn {
+        margin-left: 0;
+        padding: 15px 70px;
+      }
+    }
+    &__tel {
+      margin: 20px 0;
+    }
+    &__logo {
+      &--img {
+        height: 70px;
+      }
+    }
+  }
+  .what-can {
+    background-position: 20% 0;
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $subtitle-mb;
+      padding: 0;
+    }
+    .circles {
+      flex-direction: row;
+      span {
+        display: none;
+      }
+      .circle {
+        &__wrap {
+          padding: 45px 20px;
+          width: 200px;
+          height: 200px;
+          &--second {
+            width: 220px;
+            height: 220px;
+          }
+        }
+      }
+    }
+  }
+  .create-clients {
+    padding: $padding-first-screen-mb;
+    &__title {
+      font-size: $title-mb;
+      max-width: 100%;
+      margin: 0;
+      text-align: center;
+      &:after {
+        margin-top: 10px;
+      }
+    }
+    &__subtitle {
+      font-size: $subtitle-mb;
+      margin: 20px 0 0 20px;
+      max-width: 100%;
+    }
+    &__wrap {
+      padding: 20px 0;
+      background-size: 90%;
+    }
+    &__desc {
+      margin: 20px auto;
+      line-height: 1.5em;
+      padding: 20px;
+    }
+  }
+  .our-strategy {
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $title-mb;
+      padding: 0;
+    }
+    .strategy {
+      &__wrap {
+        flex-direction: column;
+        width: 100%;
+      }
+      &__item {
+        height: 120px;
+      }
+      &__first {
+        .strategy {
+          &__item {
+            border-right: 0;
+            .content {
+              padding-top: 0;
+              &:after {
+                border-top: 0;
+                width: 0;
+              }
+              &__desc {
+                text-align: center;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+      &__second {
+        margin-top: 0;
+        .strategy {
+          &__item {
+            border-left: 0;
+            .content {
+              padding-top: 0;
+              &:before {
+                border-top: 0;
+                width: 0;
+              }
+              &__desc {
+                text-align: center;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .advantages {
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $title-mb;
+      padding: 0;
+    }
+    &__items {
+      width: 100%;
+      .advantages {
+        &__item {
+          flex-direction: row;
+          .advantage {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0;
+            &:first-child {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .example-job {
+    padding: 20px 0;
+    &__title {
+      font-size: $title-mb;
+    }
+    .images {
+      flex-direction: column;
+      &__item {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      &__show {
+        top: 200px;
+        left: 43%;
+      }
+      &__page {
+        width: 300px;
+        margin: auto;
+      }
+    }
+  }
+  .cost-bizness {
+    padding: $padding-screen-mb;
+    &__title {
+      font-size: $title-mb;
+    }
+    .form-cost {
+      &__field {
+        margin-right: 0;
+        width: 80%;
+        margin-bottom: 10px;
+      }
+      .btn {
+        margin: 10px auto 0;
+        width: 90%;
+      }
+    }
+  }
+  .footer {
+    &__wrap {
+      flex-direction: column;
+    }
+    &__copyright {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    &__contacts {
+      flex-direction: column;
+    }
+    .call-btn {
+      margin-left: 0;
+      margin-top: 10px;
+      padding: 15px 70px;
+    }
+  }
+}
+
+
+
+
+
+
+/* Смартфоны (альбомный режим) ----------- */
+@media only screen
+and (min-width : 321px) {
+
+}
+
+/* Смартфоны (портретный режим) ----------- */
+@media only screen
+and (max-width : 320px) {
+
+}
+
+
+/* iPhone 5 (портретный и альбомный режимы)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+}
+
+/* iPhone 5 (альбомный режим)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 5 (портретный режим)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+}

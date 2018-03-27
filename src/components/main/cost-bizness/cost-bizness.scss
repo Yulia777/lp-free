@@ -1,4 +1,16 @@
 .cost-bizness {
+  &__notification{
+    font-family: $regular, sans-serif;
+    color: white;
+    background-color: $main-color;
+    font-size: 16px;
+    padding: 10px 15px;
+    text-align: center;
+    width: 35%;
+    margin: 10px auto auto auto;
+    border-radius: 25px;
+    animation: notifAnimation 0.3s 1 linear;
+  }
   padding: $padding-screen;
   background: url("../../assets/images/fon-sixth-screen-min.png")no-repeat;
   background-position: center;
@@ -7,6 +19,7 @@
     text-align: center;
     font-family: $light;
     margin: 0;
+    padding: $titles;
     span {
       font-family: $bold;
       color: #525252;

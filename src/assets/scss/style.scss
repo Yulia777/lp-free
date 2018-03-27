@@ -2,6 +2,7 @@
 @import "fonts";
 @import "variables";
 @import "icons";
+/*@import "../../components/popup/popup";*/
 @import "../../components/elements/elements";
 @import "../../components/header/header";
 @import "../../components/footer/footer";
@@ -12,6 +13,7 @@
 @import "../../components/main/cost-bizness/cost-bizness";
 @import "../../components/elements/forms/form-cost/form-cost";
 @import "../../components/main/our-strategy/our-strategy";
+
 
 body{
   @include main-theme-font-regular;
@@ -47,11 +49,18 @@ body{
   cursor: pointer;
   &:hover {
     background: $btn-main-hover;
+    transition: 0.8s;
   }
 }
 .container {
   margin: 0 auto;
 }
+
+
+@import "../../assets/scss/tablet/tablet";
+@import "../../assets/scss/mobile/mobile";
+
+
 @media (min-width:768px) {
   .container {
     width: 750px;

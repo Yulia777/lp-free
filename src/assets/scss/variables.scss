@@ -16,7 +16,22 @@ $big-number: 56px;
 /*indents*/
 $padding-screen: 40px;
 $padding-first-screen: 120px 0;
+$titles: 0 0 30px 0;
 /*fonts*/
 $regular: OpenSansRegular;
 $light: OpenSansLight;
 $bold: OpenSansBold;
+
+
+/*For mobiles*/
+
+/*size text*/
+$header-footer-text-mb: 14px;
+$title-mb: 26px;
+$subtitle-mb: 24px;
+$text-mb: 16px;
+$big-number-mb: 56px;
+/*indents*/
+$padding-screen-mb: 40px 10px;
+$padding-first-screen-mb: 20px 0;
+$titles-mb: 0 0 30px 0;

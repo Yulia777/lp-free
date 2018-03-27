@@ -7,6 +7,7 @@
     font-family: $light;
     max-width: 500px;
     margin: auto;
+    padding: $titles;
     span {
       font-family: $bold;
     }
@@ -50,7 +51,7 @@
       justify-content: space-between;
       width: 80%;
       margin: auto;
-      padding-top: 80px;
+      padding-top: 30px;
     }
     &__first {
       .strategy {

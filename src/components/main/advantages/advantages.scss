@@ -8,6 +8,7 @@
     text-align: center;
     font-family: $light;
     margin: 0;
+    padding: $titles;
     span {
       font-family: $bold;
     }
@@ -40,6 +41,11 @@
           .desc {
             line-height: 1.5em;
             padding: 5px 0 0;
+          }
+        }
+        &:last-child {
+          .advantage {
+            padding: 0;
           }
         }
       }
